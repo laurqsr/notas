@@ -11,6 +11,9 @@ let notesContainer = document.querySelector('#notes'); // Lista divs com dados d
 let btnSaveNote = document.querySelector("#btn-save-note"); // Botão para salvar nota
 let btnCloseNote = document.querySelector("#btn-close-note"); // Botão para fechar modal de edição de nota.
 
+const btnEditNote = document.querySelector("#btn-edit-note");
+const btnDeleteNote = document.querySelector("#btn-delete-note");
+
 /**
  * ========================= EVENTOS ================================
  */
@@ -24,7 +27,7 @@ addNote.addEventListener("click", (evt) => {
 
 btnCloseNote.addEventListener("click", (evt) => {
   evt.preventDefault();
-  notesContainer.style.display = "flex";
+  notes.style.display = "none";
   modal.style.display = "none";
   addNote.style.display = "block";
 });
