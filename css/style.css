@@ -26,8 +26,13 @@ header{
 }
 
 main{
-  margin: 2vh 2vw;
+  padding: 2vh;
   min-height: 80vh;
+  background-color: rgb(255, 240, 221);
+}
+
+.card{
+  background-color: #3da1ff;
 }
 
 #notes{
