@@ -4,7 +4,7 @@
 }
 
 header{
-  border-bottom: 1px solid #1b85dc;
+  border-bottom: 5px solid #E91E63;
   height: 10vh;
   display:flex;
 }
@@ -36,17 +36,23 @@ main{
   justify-content: space-around;
 }
 
+.card-body {
+  border: 2px solid #E91E63;
+  border-radius: 0.5rem;
+  padding: 10rem;
+}
+
 .card a{
   text-decoration: none;
 }
 
 #modal-view{
-  border:1px solid #1b85dc;
+  border: 2px solid #E91E63;
   position: absolute;
   display:none;
   width: 90vw;
   padding:10px;
- 
+  border-radius: 0.5rem;
 }
 
 #close-modal{
@@ -54,7 +60,7 @@ main{
 }
 
 #modal{
-  border:1px solid #1b85dc;
+  border: 5px solid #E91E63;
   position: absolute;
   padding:2vh 2vw;
   display:none;
@@ -64,4 +70,9 @@ main{
 #controls-note{
   display:flex;
   gap:10px;
+}
+
+button{
+  border-color: #3da1ff;
+  color: #E91E63;
 }
