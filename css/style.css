@@ -10,7 +10,7 @@ header{
 }
 
 #logo{
-  width: 30vw;
+  width: 25vw;
   height: 10vh;
 }
 
@@ -46,6 +46,10 @@ main{
   text-decoration: none;
 }
 
+.card a:hover {
+  color: #3da1ff;
+}
+
 #modal-view{
   border: 2px solid #E91E63;
   position: absolute;
@@ -72,7 +76,29 @@ main{
   gap:10px;
 }
 
-button{
+button {
   border-color: #3da1ff;
   color: #E91E63;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E91E63;
+  color: white;
+}
+
+footer {
+  height: 3rem;
+  background-color: #E91E63;
+}
+
+h5{
+  color: white;
+  text-align: center;
+  font-size: 0.2rem;
+}
+
+h3{
+  text-align: center;
 }
